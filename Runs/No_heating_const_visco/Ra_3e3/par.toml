@@ -1,0 +1,19 @@
+[numerical]
+n_x = 128
+n_z = 32
+nsteps = 4000
+nwrite = 200
+restart = false
+
+[physical]
+ranum = 3000.0
+int_heat = 0
+temp_init = 0.5
+pert_init = "random"
+var_visc = false
+var_visc_temp = 10000.0
+var_visc_depth = 1.0
+periodic = false
+
+[inout]
+outdir = "Ra_3e3"
